@@ -102,6 +102,7 @@ header-text-1 {
 
 .margin-header {
   margin: 0 15px 21px 15px;
+  padding: 43px;
 }
 
 .hashtags {
@@ -235,4 +236,10 @@ header-text-1 {
       flex-direction: column;
   }
 
+}
+@media screen and (max-width:768px) {
+    .desktop-menu{
+       display: none;
+    }
+    
 }
