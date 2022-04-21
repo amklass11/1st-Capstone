@@ -7,3 +7,71 @@
     font-family: 'cocogoose-bold';
     src: url('http://fonts.cdnfonts.com/css/cocogoose');
   }
+  *{
+    padding: 0%;
+    margin: 0;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  header {
+    background: url(../img/bg.png);
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    width: 100%;
+  }
+  /* navbar */
+  
+  nav {
+    padding: 20px;
+    text-decoration: none
+  }
+  
+  .nav-bar {
+    background-color: white;
+    box-shadow: #5a5a5a;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  #logo {
+    height: 44px;
+    width: 51px;
+    image-rendering: pixelated;
+  }
+  
+  .hamburger {
+   color: black;
+  }
+  
+  .desktop-menu {
+    color: black;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-family: 'cocogoose-light';
+  }
+  
+  .desktop-menu a {
+    text-decoration: none;
+    font-family: 'cocogoose-light';
+    color: #5a5a5a;
+  }
+
+  .header-section {
+  background-image: url('../img/about_bg_01.png');
+  background-size: 90%;
+  background-position: 0% 10%;
+  background-color: rgb(247, 247, 247);
+  background-repeat: no-repeat;
+}
