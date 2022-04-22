@@ -7,7 +7,7 @@ CSS
 
 
 # live Demo
- To see a live demo kindly visit [Portfolio](https://amklass11.github.io/Mobile-portfolio/)
+ To see a live demo kindly visit [Capstone](https://amklass11.github.io/1st-Capstone/)
 
 # Getting Started
 This is a  microverse project aimed at grasping responsive design wtih html
