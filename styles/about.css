@@ -7,33 +7,35 @@
     font-family: 'cocogoose-bold';
     src: url('http://fonts.cdnfonts.com/css/cocogoose');
   }
-  *{
+*{
     padding: 0%;
     margin: 0;
-  }
+}
   
-  .flex-column {
+.flex-column {
     display: flex;
     flex-direction: column;
-  }
+}
   
-  .flex-row {
+.flex-row {
     display: flex;
     flex-direction: row;
-  }
+}
+
+
   
-  header {
+header {
     display: flex;
     flex-direction: column;
     background-size: cover;
     width: 100%;
-  }
+}
   /* navbar */
   
-  nav {
+nav {
     padding: 20px;
     text-decoration: none
-  }
+}
   
 .nav-bar {
   background-color: white;

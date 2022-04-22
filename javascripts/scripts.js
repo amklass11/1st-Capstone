@@ -1,4 +1,4 @@
-const menBtn = document.querySelector('.nae');
+const menBtn = document.querySelector('#bars');
 const navstuff = document.querySelector('.mobile-menu');
 const Closer = document.querySelector('.close-button');
 const rep = document.getElementById('hide');
@@ -10,132 +10,75 @@ rep.addEventListener('click', () => {
   Closer.classList.toggle('visible');
   rep.classList.toggle('invisible');
 });
-Closer.addEventListener('click', () => {
-  menBtn.classList.toggle('navblur');
-  navstuff.classList.toggle('activate');
-  navstuff.classList.toggle('mobile-menu');
-  Closer.classList.toggle('visible');
-  rep.classList.toggle('invisible');
-});
+// Closer.addEventListener('click', () => {
+//   menBtn.classList.toggle('navblur');
+//   navstuff.classList.toggle('activate');
+//   navstuff.classList.toggle('mobile-menu');
+//   Closer.classList.toggle('visible');
+//   rep.classList.toggle('invisible');
+// });
 const dataProjects = [
-  {
-    name: 'Tonic',
-    description:
-        'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    descriptionPopup:
-        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s took a gaed it 1960s with nesciunt doloremque nesciunt doloremque nesciunt doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
-    image: './1.png',
-    technologies: ['html', 'css', 'javaScript', 'Bootstraps', 'Github', 'Ruby'],
-    liveVersion:
-        'https://amklass11.github.io/Mobile-portfolio/',
-    source: 'https://github.com/amklass11/Mobile-portfolio',
-  },
-  {
-    name: 'Multi-Post Stories',
-    description:
-        'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    descriptionPopup:
-        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s took a gaed it 1960s with nesciunt doloremque nesciunt doloremque nesciunt doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
-
-    image: './2.png',
-    technologies: [
-      'html',
-      'Ruby on rails',
-      'css',
-      'javaScript',
-      'Bootstraps',
-      'Github',
-      'Ruby',
-    ],
-    liveVersion:
-    'https://amklass11.github.io/Mobile-portfolio/',
-    source: 'https://github.com/amklass11/Mobile-portfolio',
-  },
-  {
-    name: 'Facebook 360',
-    description:
-        'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    descriptionPopup:
-        'sandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
-    image: './3.png',
-    technologies: [
-      'html',
-      'Ruby on rails',
-      'css',
-      'javaScript',
-      'Bootstraps',
-      'Github',
-      'Ruby',
-    ],
-    liveVersion:
-    'https://amklass11.github.io/Mobile-portfolio/',
-    source: 'https://github.com/amklass11/Mobile-portfolio',
-  },
-  {
-    name: 'Uber Navigation',
-    description:
-        'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    descriptionPopup:
-        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s took a gaed it 1960s with nesciunt doloremque nesciunt doloremque nesciunt doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
-
-    image: './1.png',
-    technologies: [
-      'html',
-      'Ruby on rails',
-      'css',
-      'javaScript',
-      'Bootstraps',
-      'Github',
-      'Ruby',
-    ],
-    liveVersion:
-    'https://amklass11.github.io/Mobile-portfolio/',
-    source: 'https://github.com/amklass11/Mobile-portfolio',
-  },
-];
+     {
+         name: 'Margaret Hamilton',
+        contribution: 'She at the time served in the capacity of Director Software Engineering Division at Charles Stark Draper Lab and led a team of individuals who built the onboard flight control software for the famous NASA missions namely; Apollo and Skylab.',
+        Description: 'Her claim to fame is due to the Apollo mission, in particular. She later aided in the development of ‘Universal Systems Language’ and ‘Development before the Fact’ model. It is to her credit the term “software engineering”',
+        img: '../img/margaret.png',
+      },
+      {
+        name: 'Donald Knuth',
+        contribution: 'His book on the theory of programming earned him all the accolades and much-deserved fame.',
+        Description: 'He created the ‘TeX digital typesetting system’. Amidst winning a number of awards, he was named as the ‘Fellow at the Computer History Museum’ in 1998.',
+        img: '../img/Donald.png',
+      },
+      {
+        name: 'Ken Thompson',
+        contribution: 'He won A.M. Turing Award along with Dennis Ritchie in 1983 among other awards. He’s also an inductee at the fellow of Computer History Museum (1997).',
+        Description: 'Along with Dennis Ritchie, Ken was the co-creator of UNIX. He is also accredited with creating ‘B-programming language’, the ‘ed(text editor)’, and also was the co-developer of ‘Go’ programming language.',
+        img: '../img/Ken.jpg',
+      },
+      {
+        name: 'Richard Stallman',
+        contribution: 'As his contribution to the open-source software which we use daily for code compilation, he is among the most influential computer programmers in the history.',
+        Description: 'Remember the ‘GNU Project’? Well, he is the founder of it along with its tools such as ‘Emacs’, ‘GCC’ etc. He is also the founder of the ‘Free Software Foundation’ and the winner of ACM’s Grace Murray Hopper Award (1990) and EFF’s Pioneer Award (1998).',
+        img: '../img/richard.png',
+      },
+      {
+        name: 'Niklaus Wirth',
+        contribution: 'A Swedish computer programmer and is hailed as one of the pioneers of computer programming. He introduced the renowned programming languages including Pascal, Euler, Algol-W, Modula/Modula-2, and Oberon/Oberon-2/-7.',
+        Description: 'Another relatively simpler programming language known as PL/o was also designed by Wirth. PL/o now serves as the foundation for compiler design classes in universities. His contribution in the field of computer programming won him the prestigious Turing Award in ’84.',
+        img: '../img/Niklaus.png',
+      },
+      {
+        name: 'Dennis Ritchie',
+        contribution: 'Dennis Ritchie was a computer scientist and is responsible for setting up the digital era of ours presently. He devised C programming language which is employed by many software applications, operating systems, and has served as the benchmark for the programming languages that followed.',
+        Description: 'As mentioned above he co-created UNIX with Ken Thompson. ’83 won him the Turing Award from ACM and several other accolades. Upon his passing the Fedora 16 Linux distribution was released as part of honoring his memory.',
+        img: '../img/donnald.png',
+      },
+    ];
 function createCard(el) {
-  return `<div class="card white-bg">
-          <div class="card-img">
-            <img src="${el.image}" alt="${el.name}" />
-          </div>
-          <div class="card-det">
-            <h2>Tonic</h2>
-
-            <div class="card-list">
-              <h3>Canopy</h3>
-              <ul>
-                <li>lorem</li>
-                <li>lorem</li>
-              </ul>
-            </div>
-
-            <p class="desc">
-            ${el.description}
-            </p>
-
-            <div class="tags">
-              <span>${el.technologies[0]}</span> <span>${el.technologies[1]}</span> <span>${el.technologies[3]}</span>
-            </div>
-
-            <div class="button">
-              <button class="modal-button" type="button">See Project</button>
-            </div>
-          </div>
-        </div>`;
+  return ` <div class="desktop-v">
+  <div class="flex-row  shift">
+  <img src="${el.img}" id="box" alt="Image of the speaker">
+  <div class="flex-column text-section"><h3 class="Name">${el.name}</h3>
+      <h4>${el.contribution}</h4>
+  <div class="Contribution">
+  ${el.Description}
+  </div>
+  </div>
+</div> 
+</div>
+`;
 }
 
-const myProjects = dataProjects.map((el, index) => {
+const myProjects = dataProjects.map((el) => {
   const div = document.createElement('div');
-  div.className = 'work';
-  if (index % 2 === 1) {
-    div.classList.add('reverse');
-  }
+  div.className= 'invert'
   div.innerHTML = createCard(el);
   return div;
 });
 
-const worksSection = document.querySelector('.work');
+const speakerSection = document.querySelector('.desktop-v');
 
 for (let i = 0; i < myProjects.length; i += 1) {
-  worksSection.appendChild(myProjects[i]);
+  speakerSection.appendChild(myProjects[i]);
 }

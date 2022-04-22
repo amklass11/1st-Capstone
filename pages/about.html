@@ -7,12 +7,21 @@
     <title>about page</title>
     <link rel="stylesheet" href="../styles/about.css">
     <link rel="stylesheet" href="../styles/index.css">
+    <script src="https://kit.fontawesome.com/3f00b2ab29.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header-sect" >
+        
         <div class="nav-bar">
             <nav>
-                <button id="hide" class="hamburger" type="button"><i class="fas fa-bars"></i></button>
+                <button id="hide" class="hamburger" type="button"><i  id="bars" class="fa-solid fa-bars fa-2x icon-list"></i></button>
+                <ul class="mobile-menu" id="anchors">
+                    <li class="padding"><a class="pad" href="./index.html">Home</a></li>
+                    <li class="padding"><a class="pad" href="./about.html">About</a></li>
+                    <li class="padding"><a class="pad" href="#">Contact</a></li>
+                    <li class="padding"><a class="pad" href="#">Join</a></li>
+                  </ul>
+
                 <!-- desktop menu -->
                 <div class="desktop-menu">
                     <img id="logo" src="../img/logo.jpg" alt="logo of company">
@@ -22,9 +31,11 @@
                     <a href="">Join</a>
                     <a href="">Sponsor</a>
                     <a href="">Campaign</a>
-                </div>
 
-            </nav></div>
+                </div>
+                
+            </nav>
+        </div>
             <div class="margin-header">
                 <h3 class="orange-color" id="header-text-1">
                     "Hello people from all round the world"
@@ -56,4 +67,5 @@
     </section>
     
 </body>
+<script src="../javascripts/scripts.js"></script>
 </html>

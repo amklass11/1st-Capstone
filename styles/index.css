@@ -14,6 +14,15 @@
   margin: 0;
 }
 
+ul {
+  text-decoration: none;
+}
+
+#box {
+  height: 195px;
+  width: 180px;
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -31,8 +40,81 @@ header {
   background-size: cover;
   width: 100%;
 }
-/* navbar */
 
+.bg {
+  background: url(../img/bg.png);
+}
+
+/* navbar */
+.navblur {
+  display: block;
+  position: fixed;
+  inset: 0;
+  background: rgb(207, 95, 53,0.9);
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  backdrop-filter: blur(0.5rem);
+  transition: all 0.5s ease;
+}
+
+.activate {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 8rem;
+  margin-left: 4rem;
+  transition: all 0.5s ease;
+}
+
+.close-button {
+  display: ;
+}
+
+.list {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 8rem;
+  margin-left: 4rem;
+  transition: all 0.5s ease;
+}
+
+.padding {
+  margin: 19px;
+  z-index: 10;
+}
+  
+.mobile-menu {
+  display: none;
+}
+
+.pad {
+  text-decoration: none;
+  margin: 63px -59px;
+  color: white;
+}
+
+.visible {
+  display: block;
+  font-size: 47px;
+  margin-left: 320px;
+  color: white;
+  background: none;
+  border: none;
+}
+  
+.invisible {
+  display: none;
+}
+  
 nav {
   padding: 20px;
   text-decoration: none
@@ -51,8 +133,16 @@ nav {
   image-rendering: pixelated;
 }
 
+#bars {
+  color: #272a32;
+}
+
+.hide {
+  display: none;
+}
+
 .hamburger {
- color: black;
+  color: black;
 }
 
 .desktop-menu {
@@ -70,7 +160,7 @@ nav {
   color: #5a5a5a;
 }
 
-    /* headline text section */
+/* headline text section */
 header-text-1 {
   font-family: 'cocogoose-light', sans-serif;
   font-size: 20px;
@@ -121,7 +211,7 @@ header-text-1 {
 .section-topic {
   display: flex;
   flex-direction: column;
-  background-image: url('../sprites/asset54.png');
+  background-image: url('../img/asset54.png');
   background-repeat: repeat;
   background-color: #272a32;
   color: white;
@@ -234,6 +324,24 @@ header-text-1 {
   }
   .article {
       flex-direction: column;
+  }
+
+  .hamburger {
+      display: none;
+  }
+  .invert{
+      width: 50%;
+  }
+  .shift {
+      display: block;
+    
+  }
+  .desktop-v {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .text-section {
+    display: contents;
   }
 
 }
