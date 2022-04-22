@@ -3,13 +3,13 @@
   font-family: 'cocogoose-light';
   src: url('https://fonts2u.com/download/cocogoose-pro-thin.font');
 }
-  
+
 @font-face {
   font-family: 'cocogoose-bold';
   src: url('http://fonts.cdnfonts.com/css/cocogoose');
 }
 
-*{
+* {
   padding: 0%;
   margin: 0;
 }
@@ -50,7 +50,7 @@ header {
   display: block;
   position: fixed;
   inset: 0;
-  background: rgb(207, 95, 53,0.9);
+  background: rgb(207, 95, 53, 0.9);
   width: 100%;
   height: 100%;
   z-index: 10;
@@ -70,15 +70,10 @@ header {
   transition: all 0.5s ease;
 }
 
-.close-button {
-  display: ;
-}
-
 .list {
   text-decoration: none;
   display: flex;
   flex-direction: column;
-  text-decoration: none;
   color: white;
   font-size: 3rem;
   font-weight: 600;
@@ -91,7 +86,7 @@ header {
   margin: 19px;
   z-index: 10;
 }
-  
+
 .mobile-menu {
   display: none;
 }
@@ -110,19 +105,18 @@ header {
   background: none;
   border: none;
 }
-  
+
 .invisible {
   display: none;
 }
-  
+
 nav {
   padding: 20px;
-  text-decoration: none
+  text-decoration: none;
 }
 
 .nav-bar {
   background-color: white;
-  box-shadow: #5a5a5a;
   align-items: center;
   text-decoration: none;
 }
@@ -151,17 +145,17 @@ nav {
   display: flex;
   flex-direction: row;
   text-decoration: none;
-  font-family: 'cocogoose-light';
+  font-family: 'cocogoose-light', serif;
 }
 
 .desktop-menu a {
   text-decoration: none;
-  font-family: 'cocogoose-light';
+  font-family: 'cocogoose-ligh,', serif;
   color: #5a5a5a;
 }
 
 /* headline text section */
-header-text-1 {
+#header-text-1 {
   font-family: 'cocogoose-light', sans-serif;
   font-size: 20px;
   font-weight: 100;
@@ -207,6 +201,7 @@ header-text-1 {
   font-size: 16px;
   margin-top: 10px;
 }
+
 /* topic-section */
 .section-topic {
   display: flex;
@@ -215,8 +210,7 @@ header-text-1 {
   background-repeat: repeat;
   background-color: #272a32;
   color: white;
-  justify-content: center; 
-  align-content: center;
+  justify-content: center;
 }
 
 #title-section-2 {
@@ -224,6 +218,12 @@ header-text-1 {
   align-self: center;
   justify-content: center;
   border-bottom: 2px solid  #ec5242;
+}
+
+.footer img {
+  overflow: auto;
+  height: 10%;
+  width: 10%;
 }
 
 .article {
@@ -242,7 +242,7 @@ header-text-1 {
   height: 50%;
 }
 
-.article-text{
+.article-text {
   color: #ec5242;
   margin-right: 33px;
   font-size: 20px;
@@ -251,6 +251,7 @@ header-text-1 {
 .Name {
   font-size: 20px;
 }
+
 /* speakers-section */
 
 .speakers-section {
@@ -269,7 +270,7 @@ header-text-1 {
 }
 
 .text-section {
-  width:50%;
+  width: 50%;
   margin: 10px;
 }
 
@@ -311,43 +312,40 @@ header-text-1 {
   line-height: 16px;
 }
 
-.footer img {
-  overflow: auto;
-  height: 10%;
-  width: 10%
-}
-
-@media  screen and  (min-width: 768px){
+@media screen and  (min-width: 768px) {
   #desktop-variation-1 {
-      display: flex;
-      flex-direction: row;
+    display: flex;
+    flex-direction: row;
   }
+
   .article {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .hamburger {
-      display: none;
+    display: none;
   }
-  .invert{
-      width: 50%;
+
+  .invert {
+    width: 50%;
   }
+
   .shift {
-      display: block;
-    
+    display: block;
   }
+
   .desktop-v {
     display: grid;
     grid-template-columns: auto auto;
   }
+
   .text-section {
     display: contents;
   }
-
 }
-@media screen and (max-width:768px) {
-    .desktop-menu{
-       display: none;
-    }
-    
+
+@media screen and (max-width: 768px) {
+  .desktop-menu {
+    display: none;
+  }
 }
