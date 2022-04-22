@@ -32,3 +32,4 @@ Microverse offered guidance on how to make the project more professional
 
 # 📝 License
 This project is [MIT](./MIT.md) licensed.
+This project is aimed testing the skills of html and css at Microverse
