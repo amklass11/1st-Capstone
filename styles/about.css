@@ -13,6 +13,11 @@
   margin: 0;
 }
 
+body {
+  width: 100%;
+  overflow-x:hidden;
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;

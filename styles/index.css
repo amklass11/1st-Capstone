@@ -14,6 +14,16 @@
   margin: 0;
 }
 
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 ul {
   text-decoration: none;
 }
@@ -294,6 +304,10 @@ nav {
   margin: 10px;
 }
 
+.invert {
+  margin-top: 61px;
+}
+
 /* partner section */
 .partners-section {
   display: flex;
@@ -355,13 +369,10 @@ nav {
     display: none;
   }
 
-  .invert {
-    width: 50%;
-  }
-
   .shift {
     display: flex;
     flex-direction: row;
+    padding: 80px;
   }
 
   .desktop-v {
@@ -374,6 +385,7 @@ nav {
   .text-section {
     display: flex;
     flex-direction: column;
+    margin: 22px;
   }
 }
 
