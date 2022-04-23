@@ -151,6 +151,7 @@ nav {
   flex-direction: row;
   justify-content: center;
   width: 67%;
+  align-items: center;
 }
 
 #red-pill {
