@@ -147,11 +147,12 @@ nav {
 }
 
 .pic-section {
-  display: flex;
-  flex-direction: row;
+  display: inline-grid;
   justify-content: center;
-  width: 67%;
+  width: 50%;
   align-items: center;
+  grid-template-columns: 45% 45%;
+  margin-left: 69px;
 }
 
 #red-pill {
@@ -163,7 +164,7 @@ nav {
   text-align: center;
   margin: 12px 0;
   height: 190px;
-  width: 80%;
+  width: 64%;
 }
 
 #blue-pill {
@@ -175,6 +176,6 @@ nav {
   text-align: center;
   margin: 12px 0;
   height: 185px;
-  width: 80%;
+  width: 62%;
   background-size: 233px;
 }
