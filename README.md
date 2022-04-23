@@ -27,7 +27,8 @@ Feel free to check the issues page.
 Give a ⭐️ if you like this project! and cheers✨
 
  # Acknowledgments
-Microverse offered guidance on how to make the project more professional
+- Microverse offered guidance on how to make the project more professional
+- This website was made by Wander Gonzalez in 2022 based on Cindy Shin template. Educational Purposes only.
 
 
 # 📝 License

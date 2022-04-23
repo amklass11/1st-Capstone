@@ -127,6 +127,11 @@ nav {
   image-rendering: pixelated;
 }
 
+.image {
+  height: 298px;
+  width: 284px;
+}
+
 #bars {
   color: #272a32;
 }
@@ -216,6 +221,7 @@ nav {
   background-color: #272a32;
   color: white;
   justify-content: center;
+  padding: 40px;
 }
 
 #title-section-2 {
@@ -354,16 +360,20 @@ nav {
   }
 
   .shift {
-    display: block;
+    display: flex;
+    flex-direction: row;
   }
 
   .desktop-v {
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 10px;
   }
 
   .text-section {
-    display: contents;
+    display: flex;
+    flex-direction: column;
   }
 }
 
