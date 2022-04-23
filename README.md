@@ -5,6 +5,8 @@ This  project is aimed at building a beautiful landing page.
 HTML
 CSS
 
+# Intro
+[Video](https://youtu.be/ZSD98MVBDT8)
 
 # live Demo
  To see a live demo kindly visit [Capstone](https://amklass11.github.io/1st-Capstone/)
