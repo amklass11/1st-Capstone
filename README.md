@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+>>>>>>> 2160484766130355c0da19d3c1a0ecaa99290206
 # Listening Party Conference website
 
 > This is a project created using HTML, CSS and JavaScript to show my knowledge of them.
@@ -25,7 +30,6 @@ To get a local copy up and running follow these simple example steps.
 1. Go to the [repository page](https://github.com/amklass11/1st-Capstone).
 2. Press the "Code" button and copy the link.
 3. Clone it using git command `git clone <https://github.com/amklass11/1st-Capstone.git>`.
-
 
 ## Authors
 
