@@ -20,7 +20,7 @@
 
 ## Video link
 
-[Loom video link](https://www.loom.com/share/b17f7ee5ecef49789e0583abfd8b6e02)
+[Loom video link](https://drive.google.com/file/d/1NMpyHgZ4-6qO4BnQZOI7GGDeVXh-gO1c/view?usp=sharing)
 
 
 ## Getting Started
