@@ -1,38 +1,58 @@
-# 1st-Capstone
-This  project is aimed at building a beautiful landing page.
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Built With
-HTML
-CSS
+# Listening Party Conference website
 
-# Intro
-[Video](https://youtu.be/4qCpiC7SXX4)
+> This is a project created using HTML, CSS and JavaScript to show my knowledge of them.
 
-# live Demo
- To see a live demo kindly visit [Capstone](https://amklass11.github.io/1st-Capstone/)
 
-# Getting Started
-This is a  microverse project aimed at grasping responsive design wtih html
-and css by building the 2 pages of a website. 
+## Built With
 
-# Authors
-Amk lass
+- HTML
+- CSS
+- JavaScript
 
-GitHub:[@amklass11](https://github.com/amklass11)
-LinkedIn:[@AmkLAss](https://www.linkedin.com/in/amk-lass-521565196/)
-# 🤝 Contributing
+## Live Demo
+
+[Live Demo Link](https://kamba56.github.io/First-Capstone/)
+
+## Video link
+
+[Loom video link](https://www.loom.com/share/b17f7ee5ecef49789e0583abfd8b6e02)
+
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+1. Go to the [repository page](https://github.com/Kamba56/First-Capstone).
+2. Press the "Code" button and copy the link.
+3. Clone it using git command `git clone <https://github.com/Kamba56/First-Capstone.git>`.
+
+
+## Authors
+
+👤 **Toma John Musa**
+
+- GitHub: [@Kamba56](https://github.com/Kamba56)
+- Twitter: [@Kamba_TJ](https://twitter.com/Kamba_TJ)
+- LinkedIn: [Toma](https://linkedin.com/in/toma-john-47092622b)
+
+## 🤝 Contributing
+
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+Feel free to check the [issues page](https://github.com/Kamba56/First-Capstone/issues).
 
-# Show your support
-Give a ⭐️ if you like this project! and cheers✨
+## Show your support
 
- # Acknowledgments
-- Microverse offered guidance on how to make the project more professional
-- This website was made by Wander Gonzalez in 2022 based on Cindy Shin template. Educational Purposes only.
+Give a ⭐️ if you like this project!
 
+## Acknowledgments
 
-# 📝 License
+- Hat tip to anyone whose code was used
+- [Cindy Shin](https://www.behance.net/adagio07) for original design.
+- Microverse Community
+
+## 📝 License
+
 This project is [MIT](./MIT.md) licensed.
-This project is aimed testing the skills of html and css at Microverse
