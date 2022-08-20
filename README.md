@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://kamba56.github.io/First-Capstone/)
+[Live Demo Link](https://amklass11.github.io/1st-Capstone/)
 
 ## Video link
 
