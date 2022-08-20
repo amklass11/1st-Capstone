@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Listening Party Conference website
 
 > This is a project created using HTML, CSS and JavaScript to show my knowledge of them.
@@ -24,18 +22,17 @@
 
 To get a local copy up and running follow these simple example steps.
 
-1. Go to the [repository page](https://github.com/Kamba56/First-Capstone).
+1. Go to the [repository page](https://github.com/amklass11/1st-Capstone).
 2. Press the "Code" button and copy the link.
-3. Clone it using git command `git clone <https://github.com/Kamba56/First-Capstone.git>`.
+3. Clone it using git command `git clone <https://github.com/amklass11/1st-Capstone.git>`.
 
 
 ## Authors
 
-👤 **Toma John Musa**
+👤 **AMK LASS**
 
-- GitHub: [@Kamba56](https://github.com/Kamba56)
-- Twitter: [@Kamba_TJ](https://twitter.com/Kamba_TJ)
-- LinkedIn: [Toma](https://linkedin.com/in/toma-john-47092622b)
+-GitHub:[@amklass11](https://github.com/amklass11)
+-LinkedIn:[@AmkLAss](https://www.linkedin.com/in/amk-lass-521565196/)
 
 ## 🤝 Contributing
 
