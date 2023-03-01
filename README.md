@@ -1,8 +1,36 @@
-<<<<<<< HEAD
-=======
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
->>>>>>> 2160484766130355c0da19d3c1a0ecaa99290206
+<div align="center">
+
+
+  <h3><b>CAPSTONE</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+
+
 # Listening Party Conference website
 
 > This is a project created using HTML, CSS and JavaScript to show my knowledge of them.
